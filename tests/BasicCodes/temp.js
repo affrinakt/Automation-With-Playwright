@@ -1,12 +1,21 @@
-const marks = 50;
-if (marks >= 80) {
-  console.log("Grade: A");
-} else if (marks >= 70) {
-  console.log("Grade: B");
-} else if (marks >= 60) {
-  console.log("Grade: C");
-  } else if (marks >= 50) {
-  console.log("Grade: D");
-} else {
-  console.log("Grade: F");
+// Addition
+function add(a, b) {
+    return a + b;
 }
+
+// Multiplication
+function multiply(a, b) {
+    return a * b;
+}
+
+// Division
+function divide(a, b) {
+    if (b === 0) {
+        return "Error";
+    }
+    return a / b;
+}
+
+console.log("Add:", add(10, 20));
+console.log("Multiply:", multiply(5, 6));
+console.log("Divide:", divide(20, 4));
