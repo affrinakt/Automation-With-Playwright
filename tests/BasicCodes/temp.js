@@ -18,4 +18,4 @@ function divide(a, b) {
 
 console.log("Add:", add(10, 20));
 console.log("Multiply:", multiply(5, 6));
-console.log("Divide:", divide(20, 4));
+console.log("Divide:", divide(20, 3));
