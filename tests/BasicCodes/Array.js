@@ -1,7 +1,7 @@
 //Creating array
 const Countries = ["USA", "Canada"];
 console.log(Countries);
-//Push%Pop
+//Push&Pop
 const testCases = ["Bangladesh"];
 testCases.push("Add Country");
 console.log(testCases);
